@@ -5538,11 +5538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rutva\\source\\repos\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
+      "projectUniqueName": "C:\\Users\\Rutva\\Desktop\\WFH\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
       "projectName": "HospitalApp",
-      "projectPath": "C:\\Users\\Rutva\\source\\repos\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
+      "projectPath": "C:\\Users\\Rutva\\Desktop\\WFH\\HospitalApp\\HospitalApp\\HospitalApp.csproj",
       "packagesPath": "C:\\Users\\Rutva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rutva\\source\\repos\\HospitalApp\\HospitalApp\\obj\\",
+      "outputPath": "C:\\Users\\Rutva\\Desktop\\WFH\\HospitalApp\\HospitalApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rutva\\AppData\\Roaming\\NuGet\\NuGet.Config",

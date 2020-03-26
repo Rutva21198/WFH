@@ -17,6 +17,7 @@ namespace HospitalApp.Contex
         public DbSet<Patient> patients { get; set; }
         public DbSet<Appointment> appointments { get; set; }
         public DbSet<Departments> departments { get; set; }
+        public DbSet<DrugAllocation> drugAllocations { get; set; }
 
     }
 }

@@ -12,7 +12,7 @@ namespace HospitalApp
            bool carryon = true;
             while (carryon)
             {
-                Console.WriteLine("Welcome in Hospital App...\n1. Add Patient \n2. View Patient\n3. Add Doctor\n4. View Doctor\n5. Take Appointment\nEnter Your Choice : ");
+                Console.WriteLine("Welcome in Hospital App...\n1. Add Patient \n2. View Patient\n3. Add Doctor\n4. View Doctor\n5. Take Appointment\n6. Allot Drugs\nEnter Your Choice : ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -128,6 +128,18 @@ namespace HospitalApp
                         ap.DoctorId = Convert.ToInt32(Console.ReadLine());
                         AppointmentDomain ad = new AppointmentDomain();
                         ad.AddAppointment(ap);
+                        break;
+
+                    case 6:
+                        DrugAllocation da = new DrugAllocation();
+                        Console.WriteLine("Enter Drug Id : ");
+                        da.DrugId = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter Patient Id : ");
+                        da.PatientId = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter Age : ");
+                        da.DoctorId = Convert.ToInt32(Console.ReadLine());
+                        DrugDomain dd = new DrugDomain();
+                        dd.DrugAllocation(da);
                         break;
 
                     default:
