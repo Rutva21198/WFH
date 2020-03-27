@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rutva\\source\\repos\\ToySellingApp\\ToySellingApp\\ToySellingApp.csproj": {}
+    "C:\\Users\\Rutva\\Desktop\\WFH\\ToySellingApp\\ToySellingApp\\ToySellingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rutva\\source\\repos\\ToySellingApp\\ToySellingApp\\ToySellingApp.csproj": {
+    "C:\\Users\\Rutva\\Desktop\\WFH\\ToySellingApp\\ToySellingApp\\ToySellingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rutva\\source\\repos\\ToySellingApp\\ToySellingApp\\ToySellingApp.csproj",
+        "projectUniqueName": "C:\\Users\\Rutva\\Desktop\\WFH\\ToySellingApp\\ToySellingApp\\ToySellingApp.csproj",
         "projectName": "ToySellingApp",
-        "projectPath": "C:\\Users\\Rutva\\source\\repos\\ToySellingApp\\ToySellingApp\\ToySellingApp.csproj",
+        "projectPath": "C:\\Users\\Rutva\\Desktop\\WFH\\ToySellingApp\\ToySellingApp\\ToySellingApp.csproj",
         "packagesPath": "C:\\Users\\Rutva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rutva\\source\\repos\\ToySellingApp\\ToySellingApp\\obj\\",
+        "outputPath": "C:\\Users\\Rutva\\Desktop\\WFH\\ToySellingApp\\ToySellingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rutva\\AppData\\Roaming\\NuGet\\NuGet.Config",

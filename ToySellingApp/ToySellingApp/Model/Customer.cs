@@ -10,7 +10,7 @@ namespace ToySellingApp.Model
         [Key]
         public int CustomerId { get; set; }
         public string Name { get; set; }
-        public int MobileNo { get; set; }
+        public string MobileNo { get; set; }
         public string City { get; set; }
 
     }

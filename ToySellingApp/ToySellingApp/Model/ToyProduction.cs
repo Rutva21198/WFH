@@ -9,7 +9,7 @@ namespace ToySellingApp.Model
     class ToyProduction
     {
         [Key]
-        public int ToyProductionId { get; set; }
+        public int ProductionId { get; set; }
         [ForeignKey(nameof(ToyId))]
         public int ToyId { get; set; }
         [ForeignKey(nameof(CompanyId))]

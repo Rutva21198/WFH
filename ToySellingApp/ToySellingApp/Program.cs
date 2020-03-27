@@ -13,10 +13,13 @@ namespace ToySellingApp
             char ch;
             int i;
             OrderDomain orderDomain = new OrderDomain();
+            CustomerDomain customerDomain = new CustomerDomain();
+            CompanyDomain companyDomain = new CompanyDomain();
+
             Console.WriteLine("----------------Welcome in ToySelling Application-------------");
             while(carryon)
             {
-                Console.WriteLine("\n1. Customer Registration\t2.Company Registration\n3. Toy Production\t 4. View Toys\n5. Add Shipping Address \t 6. Add Order In Cart\n7. View Cart Order  \t8. Place Order \n 9. View Invoice");
+                Console.WriteLine("\n1. Customer Registration\t2.Company Registration\n3. Add Toy In Production\t 4. View Toys\n5. View Customers \n6 . Add Shipping Address\t7. Show Address \n 8. Add Order In Cart\t9. View Cart Order  \n10. Place Order \t 11. View Invoice\n\nEnter Your Choice : ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch(choice)
                 {
@@ -25,10 +28,10 @@ namespace ToySellingApp
                         Console.WriteLine("\nEnter Name :");
                         customer.Name = Console.ReadLine();
                         Console.WriteLine("\nEnter Mobile No :");
-                        customer.MobileNo = Convert.ToInt32(Console.ReadLine());
+                        customer.MobileNo = Convert.ToInt32(Console.ReadLine()).ToString();
                         Console.WriteLine("\nEnter City :");
                         customer.City = Console.ReadLine();
-                        CustomerDomain customerDomain = new CustomerDomain();
+                        
                         customerDomain.AddCustomer(customer);
                         Console.WriteLine("\nDo you want to continue? Press y for yes");
                         ch = Convert.ToChar(Console.ReadLine());
@@ -43,7 +46,7 @@ namespace ToySellingApp
                         company.CompanyName = Console.ReadLine();
                         Console.WriteLine("\nEnter City :");
                         company.City = Console.ReadLine();
-                        CompanyDomain companyDomain = new CompanyDomain();
+                        
                         companyDomain.AddCompany(company);
                         Console.WriteLine("\nDo you want to continue? Press y for yes");
                         ch = Convert.ToChar(Console.ReadLine());
@@ -77,7 +80,7 @@ namespace ToySellingApp
                         foreach (ToyProduction toy in cd.GetToyProduction())
                         {
                             Console.WriteLine("Toy - " + i);
-                            Console.WriteLine("ToyProductionId : " + toy.ToyProductionId);
+                            Console.WriteLine("ToyProductionId : " + toy.ProductionId);
                             Console.WriteLine("ToyId : " + toy.ToyId);
                             Console.WriteLine("CompanyId : " + toy.CompanyId);
                             Console.WriteLine("Price : " + toy.Price);
@@ -93,8 +96,26 @@ namespace ToySellingApp
 
                         break;
                     case 5:
+                        foreach (Customer customer1 in customerDomain.GetCustomers())
+                        {
+                            Console.WriteLine("Customer Id : " + customer1.CustomerId);
+                            Console.WriteLine("Name : " + customer1.Name);
+                            Console.WriteLine("Mobile No : " + customer1.MobileNo);
+                            Console.WriteLine("Ciry : " + customer1.City);
+                            Console.WriteLine("------------------------------------------------");
+                        }
+                        Console.WriteLine("\nDo you want to continue? Press y for yes");
+                        ch = Convert.ToChar(Console.ReadLine());
+                        if (ch.Equals('y') || ch.Equals('Y'))
+                            carryon = true;
+                        else
+                            carryon = false;
+
+                        break;
+
+                    case 6:
                         CustomerAddress customerAddress = new CustomerAddress();
-                        Console.WriteLine("\nEnter Name :");
+                        Console.WriteLine("\nEnter Address :");
                         customerAddress.Address = Console.ReadLine();
                         Console.WriteLine("\nEnter Custermer Id :");
                         customerAddress.CustomerId = Convert.ToInt32(Console.ReadLine());
@@ -108,12 +129,31 @@ namespace ToySellingApp
                             carryon = false;
 
                         break;
-                    case 6:
+                    case 7:
+                        CustomerAddress ca = new CustomerAddress();
+                        Console.WriteLine("Enter Customer Id :");
+                        ca.CustomerId = Convert.ToInt32(Console.ReadLine());
+                        foreach (CustomerAddress customer1 in customerDomain.GetCustomerAddresses(ca))
+                        {
+                            Console.WriteLine("Customer Id : " + customer1.CustomerId);
+                            Console.WriteLine("Address Id : " + customer1.AddressId);
+                            Console.WriteLine("Address : " + customer1.Address);
+                            Console.WriteLine("------------------------------------------------");
+                        }
+                        Console.WriteLine("\nDo you want to continue? Press y for yes");
+                        ch = Convert.ToChar(Console.ReadLine());
+                        if (ch.Equals('y') || ch.Equals('Y'))
+                            carryon = true;
+                        else
+                            carryon = false;
+
+                        break;
+                    case 8:
                         Order order = new Order();
                         Console.WriteLine("\nEnter Custermer Id :");
                         order.CustomerId = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("\nEnter ToyProduction Id :");
-                        order.ToyProductionId = Convert.ToInt32(Console.ReadLine());
+                        order.ProductionId = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("\nEnter Quantity :");
                         order.Quantity = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("\nEnter Shipping Address Id :");
@@ -130,13 +170,12 @@ namespace ToySellingApp
                             carryon = false;
 
                         break;
-                    case 7:
-                       
+                    case 9:
                         foreach (Order orders in orderDomain.GetOrders())
                         {
                             Console.WriteLine("Order Id : " + orders.OderId);
                             Console.WriteLine("ToyId : " + orders.CustomerId);
-                            Console.WriteLine("ToyId : " + orders.ToyProductionId);
+                            Console.WriteLine("ToyId : " + orders.ProductionId);
                             Console.WriteLine("AddressId : " + orders.AddressId);
                             Console.WriteLine("------------------------------------------------");
                         }
@@ -148,7 +187,7 @@ namespace ToySellingApp
                             carryon = false;
 
                         break;
-                    case 8:
+                    case 10:
                         orderDomain.GetOrderById();
                         Console.WriteLine("\nDo you want to continue? Press y for yes");
                         ch = Convert.ToChar(Console.ReadLine());
@@ -157,7 +196,7 @@ namespace ToySellingApp
                         else
                             carryon = false;
                         break;
-                    case 9:
+                    case 11:
                         Invoice invoice = new Invoice();
                         invoice = orderDomain.GetInvoiceById();
                         Console.WriteLine("Invoice Id :" + invoice.InvoiceId);

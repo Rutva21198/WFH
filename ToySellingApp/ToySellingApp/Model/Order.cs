@@ -12,8 +12,8 @@ namespace ToySellingApp.Model
         public int OderId { get; set; }
         [ForeignKey(nameof(CustomerId))]
         public int CustomerId { get; set; }
-        [ForeignKey(nameof(ToyProductionId))]
-        public int ToyProductionId { get; set; }
+        [ForeignKey(nameof(ProductionId))]
+        public int ProductionId { get; set; }
         public int Quantity { get; set; }
         [ForeignKey(nameof(AddressId))]
         public int AddressId { get; set; }
