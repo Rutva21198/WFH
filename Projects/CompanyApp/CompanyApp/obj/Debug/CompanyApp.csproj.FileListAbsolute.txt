@@ -1,0 +1,12 @@
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\bin\Debug\CompanyApp.exe.config
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\bin\Debug\CompanyApp.exe
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\bin\Debug\CompanyApp.pdb
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\bin\Debug\EntityFramework.dll
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\bin\Debug\EntityFramework.xml
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csprojAssemblyReference.cache
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\obj\Debug\CompanyApp.csproj.CopyComplete
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\obj\Debug\CompanyApp.exe
+C:\Users\Rutva\source\repos\CompanyApp\CompanyApp\obj\Debug\CompanyApp.pdb
