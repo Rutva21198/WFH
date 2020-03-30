@@ -1,0 +1,10 @@
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\bin\Debug\netcoreapp3.1\StudentInfoApp.exe
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\obj\Debug\netcoreapp3.1\StudentInfoApp.csprojAssemblyReference.cache
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\obj\Debug\netcoreapp3.1\StudentInfoApp.AssemblyInfoInputs.cache
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\obj\Debug\netcoreapp3.1\StudentInfoApp.AssemblyInfo.cs
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\obj\Debug\netcoreapp3.1\StudentInfoApp.RazorTargetAssemblyInfo.cache
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\obj\Debug\netcoreapp3.1\staticwebassets\StudentInfoApp.StaticWebAssets.Manifest.cache
+C:\Users\Rutva\source\repos\StudentInfoApp\StudentInfoApp\obj\Debug\netcoreapp3.1\staticwebassets\StudentInfoApp.StaticWebAssets.xml
