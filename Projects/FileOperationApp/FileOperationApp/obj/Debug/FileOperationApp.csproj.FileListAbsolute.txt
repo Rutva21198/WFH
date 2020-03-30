@@ -1,0 +1,7 @@
+C:\Users\Rutva\source\repos\FileOperationApp\FileOperationApp\bin\Debug\FileOperationApp.exe.config
+C:\Users\Rutva\source\repos\FileOperationApp\FileOperationApp\bin\Debug\FileOperationApp.exe
+C:\Users\Rutva\source\repos\FileOperationApp\FileOperationApp\bin\Debug\FileOperationApp.pdb
+C:\Users\Rutva\source\repos\FileOperationApp\FileOperationApp\obj\Debug\FileOperationApp.csprojAssemblyReference.cache
+C:\Users\Rutva\source\repos\FileOperationApp\FileOperationApp\obj\Debug\FileOperationApp.csproj.CoreCompileInputs.cache
+C:\Users\Rutva\source\repos\FileOperationApp\FileOperationApp\obj\Debug\FileOperationApp.exe
+C:\Users\Rutva\source\repos\FileOperationApp\FileOperationApp\obj\Debug\FileOperationApp.pdb
