@@ -11,7 +11,7 @@ namespace StudentInfoApp.Model
         public string Name { get; set; }
         public string Mobile { get; set; }
         public string Email { get; set; }
-        public string course { get; set; }
-        public int fees { get; set; }
+        public string Course { get; set; }
+        public int Fees { get; set; }
     }
 }

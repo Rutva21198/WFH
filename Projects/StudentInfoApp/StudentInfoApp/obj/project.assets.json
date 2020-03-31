@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rutva\\source\\repos\\StudentInfoApp\\StudentInfoApp\\StudentInfoApp.csproj",
+      "projectUniqueName": "C:\\Users\\Rutva\\Desktop\\WFH\\Projects\\StudentInfoApp\\StudentInfoApp\\StudentInfoApp.csproj",
       "projectName": "StudentInfoApp",
-      "projectPath": "C:\\Users\\Rutva\\source\\repos\\StudentInfoApp\\StudentInfoApp\\StudentInfoApp.csproj",
+      "projectPath": "C:\\Users\\Rutva\\Desktop\\WFH\\Projects\\StudentInfoApp\\StudentInfoApp\\StudentInfoApp.csproj",
       "packagesPath": "C:\\Users\\Rutva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rutva\\source\\repos\\StudentInfoApp\\StudentInfoApp\\obj\\",
+      "outputPath": "C:\\Users\\Rutva\\Desktop\\WFH\\Projects\\StudentInfoApp\\StudentInfoApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rutva\\AppData\\Roaming\\NuGet\\NuGet.Config",

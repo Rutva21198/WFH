@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ovwjtxm6l+s4cYG4QFpLvzaYRVkGYloUyoUxQ7+bv/FRsQjgJQBjjTzsa1FJ1xyvQbOn8G/zfXiWtbWUrZnmxg==",
+  "dgSpecHash": "fjZ4mqIt3kY9fbMJ5sqldwnCBjQ6zOsJZN1cTtNy/C4c1EbXfc7Np6q6k1z6HSJRUy6oQH+likfMhwCh1uoZQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rutva\\source\\repos\\StudentInfoApp\\StudentInfoApp\\StudentInfoApp.csproj",
+  "projectFilePath": "C:\\Users\\Rutva\\Desktop\\WFH\\Projects\\StudentInfoApp\\StudentInfoApp\\StudentInfoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rutva\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Rutva\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
