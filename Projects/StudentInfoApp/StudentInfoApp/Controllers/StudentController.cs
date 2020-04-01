@@ -31,7 +31,7 @@ namespace StudentInfoApp.Controllers
             studentDomain.Update(student);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             studentDomain.Delete(id);
