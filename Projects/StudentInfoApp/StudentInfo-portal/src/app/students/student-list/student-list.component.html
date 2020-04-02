@@ -1,0 +1,30 @@
+<div class="container" style="margin-top: 2rem;">
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">StudentId</th>
+            <th scope="col">Name</th>
+            <th scope="col">MobileNumber</th>
+            <th scope="col">Email</th>
+            <th scope="col">Course</th>
+            <th scope="col">Fees</th>
+            <th scope="col">Operation</th>
+            
+          </tr>
+        </thead>
+        <tbody *ngFor="let s of result">
+          <tr>
+            <th scope="row">1</th>
+            <td>{{s.Name}}</td>
+            <td>{{s.MobileNumber}}</td>
+            <td>{{s.EmailId}}</td>
+            <td>{{s.Course}}</td>
+            <td>{{s.Fees}}</td>
+           <td colspan="2"> 
+              <button  class="btn btn-outline-secondary" (click)="update(s.StudentId)" >Update</button> &nbsp;&nbsp;
+              <button  class="btn btn-outline-danger" (click)="delete(s.StudentId)" >Delete</button>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+</div>
