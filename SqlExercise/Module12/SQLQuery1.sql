@@ -5,6 +5,7 @@ CREATE TABLE ShoppingCart
 PRIMARY KEY NONCLUSTERED (SessionID, ProductKey)) WITH  (MEMORY_OPTIMIZED = ON,  DURABILITY = SCHEMA_AND_DATA);
 
 INSERT INTO ShoppingCart(SessionID,TimeAdded,CustomerKey,ProductKey,Quantity)VALUES (1,GETDATE(),2,3,1);
+INSERT INTO ShoppingCart(SessionID,TimeAdded,CustomerKey,ProductKey,Quantity)VALUES (2,GETDATE(),2,4,3);
 
 ---------Add Procedure-----------
 
